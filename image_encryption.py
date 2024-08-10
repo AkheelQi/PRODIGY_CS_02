@@ -3,7 +3,7 @@ import numpy as np
 
 # Function to load the image
 def load_image(image_path):
-    return Image.open("C:\Users\Muhammed Akheel\OneDrive\Desktop\Posts\input_image.png")
+    return Image.open(image_path)
 
 # Function to save the image
 def save_image(image, image_path):
